@@ -1,0 +1,39 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}
+${licensePrefix}$Id$
+${licensePrefix}
+${licensePrefix}Software License Agreement (BSD License)
+${licensePrefix}
+${licensePrefix}Copyright (c) ${date?date?string("yyyy")}, ${company}
+${licensePrefix}All rights reserved.
+${licensePrefix}
+${licensePrefix}Redistribution and use of this software in source and binary forms, with or without modification, are
+${licensePrefix}permitted provided that the following conditions are met:
+${licensePrefix}
+${licensePrefix}  Redistributions of source code must retain the above
+${licensePrefix}  copyright notice, this list of conditions and the
+${licensePrefix}  following disclaimer.
+${licensePrefix}
+${licensePrefix}  Redistributions in binary form must reproduce the above
+${licensePrefix}  copyright notice, this list of conditions and the
+${licensePrefix}  following disclaimer in the documentation and/or other
+${licensePrefix}  materials provided with the distribution.
+${licensePrefix}
+${licensePrefix}  Neither the name of ${company} nor the names of its
+${licensePrefix}  contributors may be used to endorse or promote products
+${licensePrefix}  derived from this software without specific prior
+${licensePrefix}  written permission of ${company}
+${licensePrefix}
+${licensePrefix}THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+${licensePrefix}WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+${licensePrefix}PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+${licensePrefix}ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+${licensePrefix}LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+${licensePrefix}INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+${licensePrefix}TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+${licensePrefix}ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+<#if licenseLast??>
+${licenseLast}
+</#if>
