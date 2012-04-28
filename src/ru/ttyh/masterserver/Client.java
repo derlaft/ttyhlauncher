@@ -62,7 +62,7 @@ public class Client {
             String epassword = URLEncoder.encode(password, "UTF-8");
             String eversion = URLEncoder.encode(this.version, "UTF-8");
 
-            url = new URL(this.server + "?username=" + eusername + "&password="
+            url = new URL(this.server + "?user=" + eusername + "&password="
                     + epassword + "&version=" + eversion);
 
         } catch (Exception ex) {
