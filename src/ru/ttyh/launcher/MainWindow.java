@@ -168,7 +168,7 @@ public class MainWindow extends javax.swing.JFrame {
     private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
         try {
             
-            Client c = new Client("http://linux-users.ru/test/main.sh", "0.1");
+            Client c = new Client("http://master.ttyh.ru/main.sh", "15");
             c.login(loginTextField.getText(), new String(passwordTextField.getPassword()));
             
             this.setVisible(false);
